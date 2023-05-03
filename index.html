@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,14 @@
     <title>Home</title>
     <link rel="shortcut icon" href="img\Logo-TI.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="img/Logo-TI.svg" width="100px">
+                <img src="img/Teaching Industry.png" width="120px">
             </div>
             <ul>
                 <li><a href="Menu.html">Products</a></li>
@@ -25,31 +28,62 @@
             <h1>UNSOED</h1>
             <p>Best qualities from our local soil</p>
         </div>
+        <div class="slider-container">
+            <div class="slider-item fade">
+                <img src="img/pic1.jpg" />
+            </div>
+            <div class="slider-item fade">
+                <img src="img/pic2.jpg" />
+            </div>
+            <div class="slider-item fade">
+                <img src="img/pic3.jpg" />
+            </div>
+            <div class="slider-item fade">
+                <img src="img/pic4.jpg" />
+            </div>
+            <div class="slider-item fade">
+                <img src="img/pic5.jpg" />
+            </div>
+            <div class="slider-item fade">
+                <img src="img/pic6.jpg" />
+            </div>
+            <div class="slider-item fade">
+                <img src="img/pic7.jpg" />
+            </div>
+            <div class="slider-item fade">
+                <img src="img/pic8.jpg" />
+            </div>
+            <div class="slider-item fade">
+                <img src="img/pic9.jpeg" />
+            </div>
+            <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
+            <a class="next" onclick="updateSlide(1)">&#10095;</a>
+        </div>
     </header>
     <main>
         <section class="who">
             <div class="pic">
-                <img src="img/whoarewe.jpg" >
+                <img src="img/whoarewe.jpg">
             </div>
             <div class="text">
-                <h1>Who are we?</h1>
+                <h1>About Us</h1>
                 <p>We are Purwokerto-based rice house
                     focused on professionally grinding local
                     sourced, high quality, rice grain.
                 </p>
             </div>
         </section>
-         <section class="showcase">
+        <section class="showcase">
             <div class="text">
                 <h1>Product Showcase</h1>
-                <p>Our products contain the highest quality 
+                <p>Our products contain the highest quality
                     ingredients pocessed with care.</p>
             </div>
             <div class="pic">
                 <img src="img/product.jpg" width="350px">
             </div>
-         </section>
-         <section class="hangout">
+        </section>
+        <section class="hangout">
             <div class="pic">
                 <img src="Photo Materials/Hang out with us.jpg" width="453px">
             </div>
@@ -59,34 +93,35 @@
                     surrounded by natured, to help our
                     planet survive.</p>
             </div>
-         </section>
-         <div class="content">
-                <h1>Find us out at Instagram <span>@aroma_bumi</span>!</h1>
-                <div class="row">
-                    <div class="column">
-                        <img src="Photo Materials/Feed 1.png" width="237px">
-                        <img src="Photo Materials/Feed 2.png" width="237px">
-                        <img src="Photo Materials/Feed 3.png" width="237px">
-                    </div>
-                    <div class="column">
-                        <img src="Photo Materials/Feed 4.png" width="237px">
-                        <img src="Photo Materials/Feed 5.png" width="237px">
-                        <img src="Photo Materials/Feed 6.png" width="237px">
-                    </div>
+        </section>
+        <div class="content">
+            <h1>Find us out at Instagram <span>@aroma_bumi</span>!</h1>
+            <div class="row">
+                <div class="column">
+                    <img src="Photo Materials/Feed 1.png" width="237px">
+                    <img src="Photo Materials/Feed 2.png" width="237px">
+                    <img src="Photo Materials/Feed 3.png" width="237px">
                 </div>
-         </div>
-         <div class="ask">
+                <div class="column">
+                    <img src="Photo Materials/Feed 4.png" width="237px">
+                    <img src="Photo Materials/Feed 5.png" width="237px">
+                    <img src="Photo Materials/Feed 6.png" width="237px">
+                </div>
+            </div>
+        </div>
+        <div class="ask">
             <h1>Ask us more!</h1>
             <p>If you have any questions or interested to cooperate with us, kindly let us know here:</p>
-            <button type="submit">Contact us</button>
-         </div>
+            <a href="https://wa.link/vltjl9">Contact us</a>
+        </div>
     </main>
     <footer>
         <div class="icon">
-            <img class="logo" src="Photo Materials/Logo White.png" width="237px">
+            <img class="logo" src="img/Teaching Industry.png" width="150px">
             <div class="icon-svg">
-                <img class="email" src="Photo Materials/MAIL ICON.svg" width="40px" style="color:white;">
-                <img class="phone" src="Photo Materials/PHONE ICON.svg" width="32px">
+                <a href="https://wa.link/vltjl9"><img class="whatsapp" src="img/wa.png" width="32px"></a>
+                <a href="https://instagram.com/tunasjenderal_unsoed?igshid=YmMyMTA2M2Y="><img class="Instagram"
+                        src="img/ig.png" width="32px"></a>
             </div>
         </div>
         <section class="products">
@@ -106,4 +141,5 @@
     </footer>
     <script src="nav_button.js"></script>
 </body>
+
 </html>
