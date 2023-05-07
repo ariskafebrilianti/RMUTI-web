@@ -49,6 +49,7 @@ header .jumbotron {
 header {
     color: white;
     background-size: cover;
+    object-fit: cover;
     border-radius: 5px;
 
 }
