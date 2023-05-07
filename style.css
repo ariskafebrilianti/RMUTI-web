@@ -121,17 +121,23 @@ main h1 {
     font-size: 40px;
     font-weight: bold;
     color: #004d47;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
 }
 
 #map a {
     color: #EC9A29;
 }
 
-#content span, #map span {
+#content span {
     color: #EC9A29;
     border-bottom: 3px solid #EFD26D;
 }
+
+#map iframe {
+    border-radius: 20px;
+    box-shadow: #696969;
+}
+
 .row {
     justify-content: space-between;
     row-gap: 50px;
@@ -159,20 +165,23 @@ main h1 {
     margin-top: 1px;
     margin-bottom: 45px;
 }
-.ask {
+#ask {
     justify-content: space-evenly;
     text-align: center;
+    padding: 0 135px;
 }
-.ask p {
+#ask p {
     font-size: 24px;
     color:#143642;
-     margin-bottom: 10px;
+     margin-bottom: 30px;
 }
-.ask a {
+#ask button {
     background-color: maroon;
     padding: 10px 20px;
     border-radius: 10px;
-        
+    font-size: 15px;
+    font-weight: 500;    
+    border: none;    
 }
 footer {
     background-color:#143642;
