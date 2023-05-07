@@ -4,13 +4,14 @@
     font-family: Lato;
 }
 nav {
-    color: white;
+    color: rgb(102, 102, 102);
     display: flex;
     width: auto;
     height: 90px;
     margin: 0px;
     border-radius: 20px 20px  0px 0px;
     justify-content: center;
+    padding: 0 30px;
 }   
 .logo img {
     position: absolute;
@@ -20,7 +21,7 @@ nav ul {
     column-gap: 40px;
     align-items: center;
     font-family: Montserrat;
-    margin-left: 780px;
+    margin-left: auto;
  }
   li {
     list-style: none;
@@ -35,8 +36,8 @@ nav ul {
  li.active, li:hover {
     border-bottom: 4px solid #b3903e;
  }
-header nav, header .jumbotron {
-    background: rgba(1, 9, 12, 0.75);
+header {
+    background-image: rgb(0, 0, 0);
 }
 header nav {
     border-radius: 5px 5px 0 0;
@@ -46,13 +47,14 @@ header .jumbotron {
     border-radius: 0 0 5px 5px;
 }
 header {
-    color : #F9FBFE;
+    color: white;
     background-size: cover;
     border-radius: 5px;
+
 }
 .jumbotron {
     height: 500px;
-    padding: 80px 100px;
+    padding: 170px 100px;
     text-align: center;
 }
 header .jumbotron h1 {
@@ -60,37 +62,44 @@ header .jumbotron h1 {
     font-size: 60px;
     line-height: 84px;
 }
+
 header .jumbotron  {
     font-size: 36px;
 }
 nav .logo img {
     fill: white;
+    height: 100px;
+    width: auto;
 }
 main {
-    padding: 125px 180px;
+    padding: 20% 5%;
     display: flex;
     flex-direction: column;
     row-gap: 100px;
 }
-.who, .showcase, .hangout {
+#who, .showcase, #map {
     display: flex;
     justify-content: space-evenly;
 }
 .text h1 {
     border-bottom: 5px solid #EC9A29;
     width: fit-content;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 section p:not(footer section p){
     color: #004d47;
-    font-size: 24px;
+    font-size: 20px;
     width: 457px;
+    text-align: justify;
+    line-height: 30px;
 }
 
-.who img {
-    object-fit: cover;
-    width: 400px;
-    height: 480px;
+#who .pic {
+    align-items: center;
+}
+#who img {
+    object-fit: contain;
+    width: 420px;
     border-radius: 20px;
 }
 
@@ -112,10 +121,14 @@ main h1 {
     font-size: 40px;
     font-weight: bold;
     color: #004d47;
-    padding-bottom: 22px;
+    padding-bottom: 5px;
 }
- 
-span {
+
+#map a {
+    color: #EC9A29;
+}
+
+#content span, #map span {
     color: #EC9A29;
     border-bottom: 3px solid #EFD26D;
 }
@@ -125,16 +138,20 @@ span {
     display: flex;
     flex-direction: column;
 }
-.content {
+#content {
     text-align: center;
+}
+
+#content img {
+    border-radius: 2px 20px;
+    border: 1px solid #696969;
 }
 
 .column {
     display: flex;
-    column-gap: 85px;
     justify-content: space-evenly;
 }
-.content .line {
+#content .line {
     background-color: #EFD26D;
     height: 2px;
     width: 300px;
@@ -155,8 +172,7 @@ span {
     background-color: maroon;
     padding: 10px 20px;
     border-radius: 10px;
-    
-    
+        
 }
 footer {
     background-color:#143642;

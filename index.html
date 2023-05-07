@@ -2,38 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="shortcut icon" href="img\Logo-TI.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="slider.css">
+    <link rel="shortcut icon" href="img\Logo-TI.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
     <script src="script.js"></script>
 </head>
+
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="img/Teaching Industry.png" width="120px">
-            </div>
-            <ul>
-                <li><a href="Menu.html">Products</a></li>
-                <li><a href="Find.html">Store</a></li>
-                <li><a href="Help.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="jumbotron">
-            <h1>Rice Miling Unit Teaching Industry</h1>
-            <h1>UNSOED</h1>
-            <p>Best qualities from our local soil</p>
-        </div>
         <div class="slider-container">
             <div class="slider-item fade">
                 <img src="img/pic1.jpg" />
             </div>
             <div class="slider-item fade">
-                <img src="img/pic2.jpg" />
+                <img src="img/pic10.jpg" />
             </div>
             <div class="slider-item fade">
                 <img src="img/pic3.jpg" />
@@ -56,72 +42,103 @@
             <div class="slider-item fade">
                 <img src="img/pic9.jpeg" />
             </div>
-            <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
-            <a class="next" onclick="updateSlide(1)">&#10095;</a>
+            <div class="slider-item fade">
+                <img src="img/pic2.jpg" />
+            </div>
+            <div class="navigation">
+                <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
+                <a class="next" onclick="updateSlide(1)">&#10095;</a>
+            </div>
+        </div>
+        <nav>
+            <div class="logo">
+                <img src="img/Teaching Industry.png" width="120px" />
+            </div>
+            <ul>
+                <li><a href="#who">Tentang Kami</a></li>
+                <li><a href="#content">Produk</a></li>
+                <li><a href="Help.html">Contact</a></li>
+                <li><a href="Find.html">Store</a></li>
+            </ul>
+        </nav>
+        <div class="jumbotron">
+            <h1>Rice Milling Unit Teaching Industry</h1>
+            <h1>UNSOED</h1>
+            <p>Kualitas terbaik dari tanah lokal kami</p>
         </div>
     </header>
     <main>
-        <section class="who">
+        <section id="who">
             <div class="pic">
-                <img src="img/whoarewe.jpg">
+                <img src="img/pic10.jpg" />
             </div>
             <div class="text">
-                <h1>About Us</h1>
-                <p>We are Purwokerto-based rice house
-                    focused on professionally grinding local
-                    sourced, high quality, rice grain.
+                <h1>Tentang Kami</h1>
+                <p>
+                    Salah satu perusahaan yang bergerak di bidang pengelolaan pascapanen padi yang
+                    didukung oleh BPU (Badan Pengelola Usaha) UNSOED. Kami berbasis di Purwokerto
+                    yang berfokus pada penggilingan padi lokal secara profesional yang bersumber
+                    dari gabah berkualitas tinggi.
                 </p>
             </div>
         </section>
         <section class="showcase">
             <div class="text">
-                <h1>Product Showcase</h1>
-                <p>Our products contain the highest quality
-                    ingredients pocessed with care.</p>
+                <h1>Pengemasan produk</h1>
+                <p>
+                    Produk kami mengandung bahan-bahan berkualitas tinggi yang diolah dengan teliti.
+                </p>
             </div>
             <div class="pic">
-                <img src="img/product.jpg" width="350px">
+                <img src="img/showcase.png" width="350px" />
             </div>
         </section>
-        <section class="hangout">
-            <div class="pic">
-                <img src="Photo Materials/Hang out with us.jpg" width="453px">
-            </div>
-            <div class="text">
-                <h1>Hang out with us!</h1>
-                <p>Our stores use sustainable furnitures,
-                    surrounded by natured, to help our
-                    planet survive.</p>
-            </div>
-        </section>
-        <div class="content">
-            <h1>Find us out at Instagram <span>@aroma_bumi</span>!</h1>
+        <div id="content">
+            <h1>Find us out at Instagram <span>@tunasjenderal_unsoed</span>!</h1>
             <div class="row">
                 <div class="column">
-                    <img src="Photo Materials/Feed 1.png" width="237px">
-                    <img src="Photo Materials/Feed 2.png" width="237px">
-                    <img src="Photo Materials/Feed 3.png" width="237px">
+                    <img src="img/1.png" width="237px" />
+                    <img src="img/2.png" width="237px" />
+                    <img src="img/3.png" width="237px" />
                 </div>
                 <div class="column">
-                    <img src="Photo Materials/Feed 4.png" width="237px">
-                    <img src="Photo Materials/Feed 5.png" width="237px">
-                    <img src="Photo Materials/Feed 6.png" width="237px">
+                    <img src="img/4.png" width="237px" />
+                    <img src="img/5.png" width="237px" />
+                    <img src="img/6.png" width="237px" />
                 </div>
             </div>
         </div>
+        <div id="map">
+            <div class="text">
+                <h1>Kunjungi Kami disini!</h1>
+                <p>
+                    Kami juga memiliki reseller yang terdiri dari 
+                    pasar tradisional dan minimarket yang tersebar 
+                    di Banyumas. 
+                    <span><a href="webgis/index.html">Klik disini</a></span> untuk
+                    melihat lebih lanjut.</p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.500467451847!2d109.25328217385486!3d-7.40972789260047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655f9b0dc967d1%3A0xecb1d5d1b0989c46!2sUNSOED%20Rice%20Milling%20Unit!5e0!3m2!1sid!2sid!4v1683396154214!5m2!1sid!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div class="ask">
             <h1>Ask us more!</h1>
-            <p>If you have any questions or interested to cooperate with us, kindly let us know here:</p>
+            <p>
+                If you have any questions or interested to cooperate with us, kindly
+                let us know here:
+            </p>
             <a href="https://wa.link/vltjl9">Contact us</a>
         </div>
     </main>
     <footer>
         <div class="icon">
-            <img class="logo" src="img/Teaching Industry.png" width="150px">
+            <img class="logo" src="img/Teaching Industry.png" width="150px" />
             <div class="icon-svg">
-                <a href="https://wa.link/vltjl9"><img class="whatsapp" src="img/wa.png" width="32px"></a>
+                <a href="https://wa.link/vltjl9"><img class="whatsapp" src="img/wa.png" width="32px" /></a>
                 <a href="https://instagram.com/tunasjenderal_unsoed?igshid=YmMyMTA2M2Y="><img class="Instagram"
-                        src="img/ig.png" width="32px"></a>
+                        src="img/ig.png" width="32px" /></a>
             </div>
         </div>
         <section class="products">
