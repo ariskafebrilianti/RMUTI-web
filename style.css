@@ -36,6 +36,7 @@ nav ul {
  li.active, li:hover {
     border-bottom: 4px solid #b3903e;
  }
+ 
 header {
     background-image: rgb(0, 0, 0);
 }
@@ -53,6 +54,10 @@ header {
     border-radius: 5px;
 
 }
+
+.sidebar  ul :not(nav ul) {
+    display: none;
+} 
 .jumbotron {
     height: 500px;
     padding: 170px 100px;
@@ -95,6 +100,9 @@ section p:not(footer section p){
     line-height: 30px;
 }
 
+#who {
+    margin-top: 20px;
+}
 #who .pic {
     align-items: center;
 }

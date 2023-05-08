@@ -1,0 +1,110 @@
+@media only screen and (max-width: 850px) {
+    nav ul li a {
+        display: none;
+    }
+
+    nav .logo img {
+        margin-left: 30%;
+        width: 20%;
+        height: auto;
+    }
+
+    header .jumbotron h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    header .jumbotron p {
+        font-size: 15px;
+    }
+
+    .jumbotron {
+        padding: 35px 50px;
+        height: 160px;
+    }
+
+    .prev,
+    .next {
+        top: 190px;
+    }
+
+    .prev {
+        left: 10%;
+    }
+
+    .next {
+        right: 10%;
+    }
+
+    #who,
+    .showcase,
+    #map {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+
+    main {
+        align-items: center;
+        padding: 30% 5% 5% 5%;
+        row-gap: 50px;
+    }
+
+    .text h1 {
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    main h1 {
+        font-size: 32px;
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    main .pic {
+        align-self: center;
+    }
+
+    #ask {
+        padding: 0px;
+    }
+
+    #ask p {
+        font-size: 18px;
+    }
+   #map  iframe {
+        width: 90%;
+        align-self: center;
+    }
+
+    #content .column img {
+        width: 25%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .icon-svg {
+        margin-bottom: 20px;
+    }
+    footer .icon .logo {
+    display: none;
+    }
+    .products {
+        text-align: center;
+    }
+
+    .products p {
+        width: auto;
+    }
+
+    footer section {
+        text-align: center;
+    }
+    .contact p {
+        width: auto;
+    }
+}
